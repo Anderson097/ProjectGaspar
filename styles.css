@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    background-color: #f6f7fa;       
+    max-width: 1000px;
+    margin:2rem auto;
+    height: 135vh;
+}
+header{
+    background-color: #122432;
+    height: 380px;
+    border-bottom-left-radius: 45px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+nav{
+    /* border: 2px solid red; */
+    padding-block: .3rem;
+}
+
+.innerNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 850px;
+    margin: auto;
+}
+
+.navLeft{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    gap: 1.3rem;
+    /* border: 2px solid blue; */
+    color: #fff;
+    align-items: center;
+}
+h1 > span{
+    font-style: italic;
+}
+
+.navItems{
+    display: flex;
+    gap: 1rem;
+    border-left: 1px solid;
+    padding-inline: 1.5rem;
+}
+.navItems>a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 100;
+    opacity: .4;
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.navRight>a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.btnButton{
+    border-radius: 25px;
+    padding: .4rem .8rem;
+    border: none;
+    /* padding: .4rem .8rem; */
+    font-size: 10px;
+    font-weight: 600;
+}
+.navRight >span{
+    background-color: #2b3866;
+    color: #fff;
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.navRight>span>i{
+    /* color: #fff; */
+    font-size: 10px;
+    
+}
+
+/* styling for contact Wrapper */
+.contactWrapper{
+    /* border: 2px solid #fff; */
+    display: flex;
+    /* align-items: center;= */
+    max-width: 800px;
+    margin: 3rem auto;
+    gap: 70px;
+}
+.contactContent{
+    /* border: 2px solid red; */
+    color: #fff;
+}
+.contactInfo > h5{
+text-transform: uppercase;
+font-size: 12px;
+opacity: .4;
+}
+.contactInfo > h1{
+    margin-block: 1rem;
+    font-weight: 200;
+    width: 300px;
+}.contactInfo > h1 > span{
+    font-style: italic;
+}
+.contactInfo > p{
+    font-size: 12px;
+    width: 240px;
+    opacity: .4;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.btn > a{
+    color: #fff;
+    font-size: 12px;
+}
+form{
+    /* border: 2px solid blue; */
+    background-color: #fff;
+    width: 50%;
+    border-radius: 7px;
+    padding: 2.5rem;
+}
+.inputCont{
+align-items: center;
+display: flex;
+padding: 7px 5px;
+border-radius: 3px;
+justify-content: space-between;
+border: 1px solid rgb(209, 207, 207);
+margin-bottom: 1rem;
+}
+.inputCont > label{
+    font-size: 10px;
+    font-weight: 800;
+}
+.inputCont > input{
+    outline: none;
+    border: none;
+}
+.inputCont > textarea{
+    width: 100%;
+    border: none;
+    font-size: 10px;
+    font-weight: 800;
+    outline: none;
+    height: 100px;
+}
+form > button{
+    width: 100%;
+    background-color: #122432;
+    color: #fff;
+    padding: .6rem 1rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 8px;
+}
+form > button:hover{
+    background-color: #2b3866;
+    cursor: pointer;
+}
+.more-info{
+    font-size: 10px;
+    opacity: .6;
+    font-weight: 100;
+    margin-top: 15px;
+    width: 350px;
+    margin-block: 1rem;
+}
+.general{
+    margin-top: 50px;
+    padding-left: 6.6rem;
+}
+.general > .general-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 190px;
+    font-size: 12px;
+}
+
+
+.general> .socials{
+    display: flex;
+    font-size: 12px;
+    margin-top: 25px;
+    gap: 8px;
+    font-weight: 100;
+}
+
+.socials{
+    display: flex;
+    gap: 12px;
+}
