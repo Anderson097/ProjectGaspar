@@ -213,3 +213,107 @@ form > button:hover{
     display: flex;
     gap: 12px;
 }
+/* ===================== Responsive Styles ===================== */
+
+@media (max-width: 768px) {
+    #container {
+      height: auto;
+      margin: 1rem;
+    }
+  
+    header {
+      height: auto;
+      padding-bottom: 2rem;
+      border-bottom-left-radius: 30px;
+    }
+  
+    .innerNav {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      padding-inline: 1rem;
+    }
+  
+    .navLeft, .navItems, .navRight {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.6rem;
+      border: none;
+      padding-inline: 0;
+    }
+  
+    .contactWrapper {
+      flex-direction: column;
+      padding-inline: 1rem;
+      gap: 2rem;
+    }
+  
+    .contactInfo > h1 {
+      width: auto;
+      font-size: 20px;
+    }
+  
+    .contactInfo > p {
+      width: auto;
+    }
+  
+    form {
+      width: 100%;
+      padding: 1.5rem;
+    }
+  
+    .inputCont {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.4rem;
+    }
+  
+    .inputCont > input,
+    .inputCont > textarea {
+      width: 100%;
+    }
+  
+    .more-info {
+      width: 100%;
+      font-size: 10px;
+    }
+  
+    .general {
+      padding-left: 1.5rem;
+      margin-top: 30px;
+    }
+  
+    .general-info {
+      width: auto;
+    }
+  
+    .socials {
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding-top: 1rem;
+    }
+  
+    .navItems > a,
+    .navRight > a {
+      font-size: 11px;
+    }
+  
+    .btnButton {
+      font-size: 9px;
+      padding: .3rem .6rem;
+    }
+  
+    form > button {
+      font-size: 10px;
+    }
+  
+    .general {
+      padding-left: 1rem;
+    }
+  }
+  
